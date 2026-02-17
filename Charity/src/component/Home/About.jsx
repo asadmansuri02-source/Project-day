@@ -10,17 +10,13 @@ const About = () => {
         <div className="grid md:grid-cols-2 justify-left gap-0 relative">
           {/* Left Image Circle */}
           <div className="relative flex justify-center md:justify-start">
-            <div className="w-200 h-150 bg-[#9B7B52] rounded-t-full overflow-hidden flex items-end justify-center">
-              <img
-                src={father}
-                alt="about"
-                className=" w-200 object-contain "
-              />
+            <div className=" h-150 bg-[#9B7B52] rounded-t-full overflow-hidden flex items-end justify-center">
+              <img src={father} alt="about" className=" object-contain " />
             </div>
           </div>
 
           {/* Right Content Box */}
-          <div className="pt-45 -ml-4">
+          <div className="lg:pt-45 -ml-4">
             <div className="bg-white p-12  text-left h-full flex flex-col justify-end">
               <h2 className="text-5xl font-serif text-[#273734] text-left">
                 About Us

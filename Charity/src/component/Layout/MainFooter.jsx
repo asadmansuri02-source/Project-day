@@ -11,7 +11,7 @@ const Footer = () => {
             <h3 className="text-4xl font-serif text-[#1D3228] mb-6">
               Newsletter
             </h3>
-            <p className="text-[#8E9893] mb-8 text-normal text-nowrap">
+            <p className="text-[#8E9893] mb-8 text-normal lg:text-nowrap">
               Subscribe to our newsletter to get more informations
             </p>
 
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
 
           {/* Column 2: Navigation */}
-          <div className="ml-40">
+          <div className="lg:ml-40">
             <h3 className="text-4xl font-serif text-[#1D3228] mb-8">
               Navigation
             </h3>
@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
 
           {/* Column 3: About Us */}
-          <div className="ml-40">
+          <div className="lg:ml-40">
             <h3 className="text-4xl font-serif text-[#1D3228] mb-8">
               About Us
             </h3>
@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
 
           {/* Column 4: Help */}
-          <div className="ml-40">
+          <div className="lg:ml-40">
             <h3 className="text-4xl font-serif text-[#1D3228] mb-8">Help</h3>
             <ul className="space-y-5 text-[#8E9893] text-lg">
               <li className="hover:text-[#1D3228] cursor-pointer transition-colors">
